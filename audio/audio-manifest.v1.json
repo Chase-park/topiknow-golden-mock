@@ -1,0 +1,1188 @@
+{
+  "schemaVersion": "golden-student-listening-openai-audio.v1",
+  "scope": "Temporary student mock package. Generated audio remains pending human listening review.",
+  "provider": {
+    "name": "OpenAI",
+    "model": "gpt-4o-mini-tts-2025-12-15",
+    "voices": {
+      "male": "ash",
+      "female": "marin"
+    }
+  },
+  "delivery": {
+    "format": "ogg_opus",
+    "bitrateKbps": 32,
+    "channels": 1,
+    "sampleRateHz": 24000
+  },
+  "entries": [
+    {
+      "id": "listening-q21-prompt",
+      "questionNo": 21,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "네팔 사람입니다."
+        }
+      ],
+      "file": "listening-q21-prompt.opus",
+      "publicPath": "/audio/listening-q21-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.3585
+      }
+    },
+    {
+      "id": "listening-q22-prompt",
+      "questionNo": 22,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "연필"
+        }
+      ],
+      "file": "listening-q22-prompt.opus",
+      "publicPath": "/audio/listening-q22-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.7105
+      }
+    },
+    {
+      "id": "listening-q23-prompt",
+      "questionNo": 23,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "남자가 텔레비전을 봐요."
+        }
+      ],
+      "file": "listening-q23-prompt.opus",
+      "publicPath": "/audio/listening-q23-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.9105
+      }
+    },
+    {
+      "id": "listening-q24-prompt",
+      "questionNo": 24,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "어머니입니다."
+        }
+      ],
+      "file": "listening-q24-prompt.opus",
+      "publicPath": "/audio/listening-q24-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.5665
+      }
+    },
+    {
+      "id": "listening-q25-prompt",
+      "questionNo": 25,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "여자",
+          "roleKo": "식당 직원",
+          "text": "어서 오세요. 두 분은 뭐 드시겠어요?"
+        },
+        {
+          "speaker": "남자",
+          "roleKo": "손님",
+          "text": "저희는 비빔밥 하나하고 김치찌개 하나 주세요."
+        },
+        {
+          "speaker": "여자",
+          "roleKo": "식당 직원",
+          "text": "네. 두 분 모두 물 드릴까요?"
+        },
+        {
+          "speaker": "남자",
+          "roleKo": "손님",
+          "text": "네, 물 두 잔 주세요."
+        }
+      ],
+      "file": "listening-q25-prompt.opus",
+      "publicPath": "/audio/listening-q25-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 16.1885
+      }
+    },
+    {
+      "id": "listening-q26-prompt",
+      "questionNo": 26,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "남자",
+          "roleKo": "손님",
+          "text": "이 바지는 사만 삼천 원이에요? 조금 비싸네요. 깎아 주세요."
+        },
+        {
+          "speaker": "여자",
+          "roleKo": "옷가게 점원",
+          "text": "네, 사만 원만 주세요. 종이 가방에 넣어 드릴게요."
+        }
+      ],
+      "file": "listening-q26-prompt.opus",
+      "publicPath": "/audio/listening-q26-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 9.8725
+      }
+    },
+    {
+      "id": "listening-q27-choice-1",
+      "questionNo": 27,
+      "role": "choice_audio",
+      "choiceId": "1",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "의자입니다."
+        }
+      ],
+      "file": "listening-q27-choice-1.opus",
+      "publicPath": "/audio/listening-q27-choice-1.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.9745
+      }
+    },
+    {
+      "id": "listening-q27-choice-2",
+      "questionNo": 27,
+      "role": "choice_audio",
+      "choiceId": "2",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "침대입니다."
+        }
+      ],
+      "file": "listening-q27-choice-2.opus",
+      "publicPath": "/audio/listening-q27-choice-2.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.6145
+      }
+    },
+    {
+      "id": "listening-q27-choice-3",
+      "questionNo": 27,
+      "role": "choice_audio",
+      "choiceId": "3",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "책상입니다."
+        }
+      ],
+      "file": "listening-q27-choice-3.opus",
+      "publicPath": "/audio/listening-q27-choice-3.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.5185
+      }
+    },
+    {
+      "id": "listening-q27-choice-4",
+      "questionNo": 27,
+      "role": "choice_audio",
+      "choiceId": "4",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "옷장입니다."
+        }
+      ],
+      "file": "listening-q27-choice-4.opus",
+      "publicPath": "/audio/listening-q27-choice-4.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.1665
+      }
+    },
+    {
+      "id": "listening-q28-choice-1",
+      "questionNo": 28,
+      "role": "choice_audio",
+      "choiceId": "1",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "세탁기를 돌려요."
+        }
+      ],
+      "file": "listening-q28-choice-1.opus",
+      "publicPath": "/audio/listening-q28-choice-1.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.2145
+      }
+    },
+    {
+      "id": "listening-q28-choice-2",
+      "questionNo": 28,
+      "role": "choice_audio",
+      "choiceId": "2",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "옷을 다려요."
+        }
+      ],
+      "file": "listening-q28-choice-2.opus",
+      "publicPath": "/audio/listening-q28-choice-2.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.6625
+      }
+    },
+    {
+      "id": "listening-q28-choice-3",
+      "questionNo": 28,
+      "role": "choice_audio",
+      "choiceId": "3",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "옷을 개요."
+        }
+      ],
+      "file": "listening-q28-choice-3.opus",
+      "publicPath": "/audio/listening-q28-choice-3.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.9265
+      }
+    },
+    {
+      "id": "listening-q28-choice-4",
+      "questionNo": 28,
+      "role": "choice_audio",
+      "choiceId": "4",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "빨래를 널어요."
+        }
+      ],
+      "file": "listening-q28-choice-4.opus",
+      "publicPath": "/audio/listening-q28-choice-4.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.1185
+      }
+    },
+    {
+      "id": "listening-q29-choice-1",
+      "questionNo": 29,
+      "role": "choice_audio",
+      "choiceId": "1",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "자동차가 건물 앞에 있어요."
+        }
+      ],
+      "file": "listening-q29-choice-1.opus",
+      "publicPath": "/audio/listening-q29-choice-1.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 3.6545
+      }
+    },
+    {
+      "id": "listening-q29-choice-2",
+      "questionNo": 29,
+      "role": "choice_audio",
+      "choiceId": "2",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "자동차가 건물 뒤에 있어요."
+        }
+      ],
+      "file": "listening-q29-choice-2.opus",
+      "publicPath": "/audio/listening-q29-choice-2.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 3.0545
+      }
+    },
+    {
+      "id": "listening-q29-choice-3",
+      "questionNo": 29,
+      "role": "choice_audio",
+      "choiceId": "3",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "자동차가 건물 옆에 있어요."
+        }
+      ],
+      "file": "listening-q29-choice-3.opus",
+      "publicPath": "/audio/listening-q29-choice-3.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 3.7745
+      }
+    },
+    {
+      "id": "listening-q29-choice-4",
+      "questionNo": 29,
+      "role": "choice_audio",
+      "choiceId": "4",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "자동차가 건물 건너편에 있어요."
+        }
+      ],
+      "file": "listening-q29-choice-4.opus",
+      "publicPath": "/audio/listening-q29-choice-4.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 5.1665
+      }
+    },
+    {
+      "id": "listening-q30-choice-1",
+      "questionNo": 30,
+      "role": "choice_audio",
+      "choiceId": "1",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "오월 이일입니다."
+        }
+      ],
+      "file": "listening-q30-choice-1.opus",
+      "publicPath": "/audio/listening-q30-choice-1.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 4.1105
+      }
+    },
+    {
+      "id": "listening-q30-choice-2",
+      "questionNo": 30,
+      "role": "choice_audio",
+      "choiceId": "2",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "이월 이십일입니다."
+        }
+      ],
+      "file": "listening-q30-choice-2.opus",
+      "publicPath": "/audio/listening-q30-choice-2.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.1185
+      }
+    },
+    {
+      "id": "listening-q30-choice-3",
+      "questionNo": 30,
+      "role": "choice_audio",
+      "choiceId": "3",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "오월 이십일입니다."
+        }
+      ],
+      "file": "listening-q30-choice-3.opus",
+      "publicPath": "/audio/listening-q30-choice-3.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.8545
+      }
+    },
+    {
+      "id": "listening-q30-choice-4",
+      "questionNo": 30,
+      "role": "choice_audio",
+      "choiceId": "4",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "오월 이십오일입니다."
+        }
+      ],
+      "file": "listening-q30-choice-4.opus",
+      "publicPath": "/audio/listening-q30-choice-4.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.0225
+      }
+    },
+    {
+      "id": "listening-q31-choice-1",
+      "questionNo": 31,
+      "role": "choice_audio",
+      "choiceId": "1",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "청바지입니다."
+        }
+      ],
+      "file": "listening-q31-choice-1.opus",
+      "publicPath": "/audio/listening-q31-choice-1.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.8545
+      }
+    },
+    {
+      "id": "listening-q31-choice-2",
+      "questionNo": 31,
+      "role": "choice_audio",
+      "choiceId": "2",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "티셔츠입니다."
+        }
+      ],
+      "file": "listening-q31-choice-2.opus",
+      "publicPath": "/audio/listening-q31-choice-2.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.7585
+      }
+    },
+    {
+      "id": "listening-q31-choice-3",
+      "questionNo": 31,
+      "role": "choice_audio",
+      "choiceId": "3",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "모자입니다."
+        }
+      ],
+      "file": "listening-q31-choice-3.opus",
+      "publicPath": "/audio/listening-q31-choice-3.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.4705
+      }
+    },
+    {
+      "id": "listening-q31-choice-4",
+      "questionNo": 31,
+      "role": "choice_audio",
+      "choiceId": "4",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "운동화입니다."
+        }
+      ],
+      "file": "listening-q31-choice-4.opus",
+      "publicPath": "/audio/listening-q31-choice-4.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.6145
+      }
+    },
+    {
+      "id": "listening-q32-prompt",
+      "questionNo": 32,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "지금 몇 시입니까?"
+        }
+      ],
+      "file": "listening-q32-prompt.opus",
+      "publicPath": "/audio/listening-q32-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.5745
+      }
+    },
+    {
+      "id": "listening-q32-choice-1",
+      "questionNo": 32,
+      "role": "choice_audio",
+      "choiceId": "1",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "여덟 시에 집에 갑니다."
+        }
+      ],
+      "file": "listening-q32-choice-1.opus",
+      "publicPath": "/audio/listening-q32-choice-1.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.2145
+      }
+    },
+    {
+      "id": "listening-q32-choice-2",
+      "questionNo": 32,
+      "role": "choice_audio",
+      "choiceId": "2",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "버스로 갑니다."
+        }
+      ],
+      "file": "listening-q32-choice-2.opus",
+      "publicPath": "/audio/listening-q32-choice-2.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.0225
+      }
+    },
+    {
+      "id": "listening-q32-choice-3",
+      "questionNo": 32,
+      "role": "choice_audio",
+      "choiceId": "3",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "회사에 있습니다."
+        }
+      ],
+      "file": "listening-q32-choice-3.opus",
+      "publicPath": "/audio/listening-q32-choice-3.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.4225
+      }
+    },
+    {
+      "id": "listening-q32-choice-4",
+      "questionNo": 32,
+      "role": "choice_audio",
+      "choiceId": "4",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "다섯 시 반입니다."
+        }
+      ],
+      "file": "listening-q32-choice-4.opus",
+      "publicPath": "/audio/listening-q32-choice-4.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.5265
+      }
+    },
+    {
+      "id": "listening-q33-prompt",
+      "questionNo": 33,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "안녕하세요?"
+        }
+      ],
+      "file": "listening-q33-prompt.opus",
+      "publicPath": "/audio/listening-q33-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.3745
+      }
+    },
+    {
+      "id": "listening-q33-choice-1",
+      "questionNo": 33,
+      "role": "choice_audio",
+      "choiceId": "1",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "안녕하세요?"
+        }
+      ],
+      "file": "listening-q33-choice-1.opus",
+      "publicPath": "/audio/listening-q33-choice-1.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.4705
+      }
+    },
+    {
+      "id": "listening-q33-choice-2",
+      "questionNo": 33,
+      "role": "choice_audio",
+      "choiceId": "2",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "어느 나라 사람입니까?"
+        }
+      ],
+      "file": "listening-q33-choice-2.opus",
+      "publicPath": "/audio/listening-q33-choice-2.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.4065
+      }
+    },
+    {
+      "id": "listening-q33-choice-3",
+      "questionNo": 33,
+      "role": "choice_audio",
+      "choiceId": "3",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "네팔 사람입니다."
+        }
+      ],
+      "file": "listening-q33-choice-3.opus",
+      "publicPath": "/audio/listening-q33-choice-3.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.5665
+      }
+    },
+    {
+      "id": "listening-q33-choice-4",
+      "questionNo": 33,
+      "role": "choice_audio",
+      "choiceId": "4",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "동티모르 사람입니다."
+        }
+      ],
+      "file": "listening-q33-choice-4.opus",
+      "publicPath": "/audio/listening-q33-choice-4.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.1185
+      }
+    },
+    {
+      "id": "listening-q34-prompt",
+      "questionNo": 34,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "하노이는 지금 날씨가 어때요?"
+        }
+      ],
+      "file": "listening-q34-prompt.opus",
+      "publicPath": "/audio/listening-q34-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 3.3185
+      }
+    },
+    {
+      "id": "listening-q34-choice-1",
+      "questionNo": 34,
+      "role": "choice_audio",
+      "choiceId": "1",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "하노이에 있어요."
+        }
+      ],
+      "file": "listening-q34-choice-1.opus",
+      "publicPath": "/audio/listening-q34-choice-1.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.8545
+      }
+    },
+    {
+      "id": "listening-q34-choice-2",
+      "questionNo": 34,
+      "role": "choice_audio",
+      "choiceId": "2",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "비행기를 타요."
+        }
+      ],
+      "file": "listening-q34-choice-2.opus",
+      "publicPath": "/audio/listening-q34-choice-2.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.5665
+      }
+    },
+    {
+      "id": "listening-q34-choice-3",
+      "questionNo": 34,
+      "role": "choice_audio",
+      "choiceId": "3",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "비가 많이 와요."
+        }
+      ],
+      "file": "listening-q34-choice-3.opus",
+      "publicPath": "/audio/listening-q34-choice-3.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.8065
+      }
+    },
+    {
+      "id": "listening-q34-choice-4",
+      "questionNo": 34,
+      "role": "choice_audio",
+      "choiceId": "4",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "오늘은 일요일이에요."
+        }
+      ],
+      "file": "listening-q34-choice-4.opus",
+      "publicPath": "/audio/listening-q34-choice-4.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.9265
+      }
+    },
+    {
+      "id": "listening-q35-prompt",
+      "questionNo": 35,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "이 바지가 조금 비싸네요. 깎아 주세요."
+        }
+      ],
+      "file": "listening-q35-prompt.opus",
+      "publicPath": "/audio/listening-q35-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 4.5665
+      }
+    },
+    {
+      "id": "listening-q35-choice-1",
+      "questionNo": 35,
+      "role": "choice_audio",
+      "choiceId": "1",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "네, 이 바지는 큰 사이즈예요."
+        }
+      ],
+      "file": "listening-q35-choice-1.opus",
+      "publicPath": "/audio/listening-q35-choice-1.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 3.1745
+      }
+    },
+    {
+      "id": "listening-q35-choice-2",
+      "questionNo": 35,
+      "role": "choice_audio",
+      "choiceId": "2",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "죄송하지만 종이 가방은 없어요."
+        }
+      ],
+      "file": "listening-q35-choice-2.opus",
+      "publicPath": "/audio/listening-q35-choice-2.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.9105
+      }
+    },
+    {
+      "id": "listening-q35-choice-3",
+      "questionNo": 35,
+      "role": "choice_audio",
+      "choiceId": "3",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "감사합니다. 다음에 또 오세요."
+        }
+      ],
+      "file": "listening-q35-choice-3.opus",
+      "publicPath": "/audio/listening-q35-choice-3.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.5745
+      }
+    },
+    {
+      "id": "listening-q35-choice-4",
+      "questionNo": 35,
+      "role": "choice_audio",
+      "choiceId": "4",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "네, 사만 원만 주세요."
+        }
+      ],
+      "file": "listening-q35-choice-4.opus",
+      "publicPath": "/audio/listening-q35-choice-4.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 2.3105
+      }
+    },
+    {
+      "id": "listening-q36-prompt",
+      "questionNo": 36,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "회사에서 여기까지 얼마나 걸렸어요?"
+        }
+      ],
+      "file": "listening-q36-prompt.opus",
+      "publicPath": "/audio/listening-q36-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 3.9185
+      }
+    },
+    {
+      "id": "listening-q37-prompt",
+      "questionNo": 37,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "주말 잘 보내세요."
+        }
+      ],
+      "file": "listening-q37-prompt.opus",
+      "publicPath": "/audio/listening-q37-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 1.9265
+      }
+    },
+    {
+      "id": "listening-q38-prompt",
+      "questionNo": 38,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "남자",
+          "text": "가족과 같이 살아요?"
+        },
+        {
+          "speaker": "여자",
+          "text": "네, 어머니와 같이 살아요."
+        },
+        {
+          "speaker": "남자",
+          "text": "어머니는 어디에서 일하세요?"
+        },
+        {
+          "speaker": "여자",
+          "text": "베트남 식당에서 일하세요. 요리도 잘하세요."
+        }
+      ],
+      "file": "listening-q38-prompt.opus",
+      "publicPath": "/audio/listening-q38-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 13.4525
+      }
+    },
+    {
+      "id": "listening-q39-prompt",
+      "questionNo": 39,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "지금 시내에 있는데, 기숙사 쪽에도 비가 와요?"
+        },
+        {
+          "speaker": "남자",
+          "text": "네, 방금 비가 오기 시작했어요."
+        },
+        {
+          "speaker": "여자",
+          "text": "아, 밖에 널어 둔 빨래가 아직 그대로 있어요."
+        },
+        {
+          "speaker": "남자",
+          "text": "알겠어요. 제가 지금 나갈게요."
+        }
+      ],
+      "file": "listening-q39-prompt.opus",
+      "publicPath": "/audio/listening-q39-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 17.4845
+      }
+    },
+    {
+      "id": "listening-q40-prompt",
+      "questionNo": 40,
+      "role": "prompt_audio",
+      "segments": [
+        {
+          "speaker": "여자",
+          "text": "이번 일요일에 친구 결혼식이 있어서 입을 옷을 찾고 있어요."
+        },
+        {
+          "speaker": "남자",
+          "text": "이 노란색 치마는 어때요?"
+        },
+        {
+          "speaker": "여자",
+          "text": "조금 짧아요. 저는 긴 옷을 좋아해요."
+        },
+        {
+          "speaker": "남자",
+          "text": "그럼 이 파란색 원피스를 한번 보세요."
+        }
+      ],
+      "file": "listening-q40-prompt.opus",
+      "publicPath": "/audio/listening-q40-prompt.opus",
+      "status": "ready_needs_human_listening_review",
+      "probe": {
+        "codec": "opus",
+        "channels": 1,
+        "opusDecodeSampleRateHz": 48000,
+        "encoderInputSampleRateHz": 24000,
+        "durationSeconds": 17.3885
+      }
+    }
+  ],
+  "readyCount": 51,
+  "totalCount": 51,
+  "finalApproval": false
+}
